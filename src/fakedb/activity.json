@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "activity": "Running",
+        "time": "20min",
+        "age": "20-26",
+        "img": "https://ibb.co/d4XK4xK",
+        "description": "Running, or jogging, is one of the best cardio exercises you can do. Running for at least 10 minutes a day can significantly lower your risk of cardiovascular disease. Runners lower their chances of dying from heart disease by half"
+      },
+    {
+        "id": "2",
+        "activity": "Walking",
+        "time": 10,
+        "age": "18-25",
+        "img": "https://ibb.co/Vxyz1Lz",
+        "description": "Walk briskly, but as a general rule maintain enough breath to be able to carry on a conversation. Start out with a 5 minute walk and work up to walking for at least 30 minutes (roughly 2 miles) at least 3 to 4 times a week."
+      },
+    {
+        "id": "3",
+        "activity": "Swimming",
+        "time": 15,
+        "age": "20-28",
+        "img": "https://ibb.co/Jy3RL7y",
+        "description": "Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival. Locomotion is achieved through coordinated movement of the limbs and the body to achieve hydrodynamic thrust which results in directional motion."
+      },
+    {
+        "id": "4",
+        "activity": "Playing",
+        "time": 30,
+        "age": "20-30",
+        "img": "https://ibb.co/Qbn13DR",
+        "description": "Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores."
+      },
+    {
+        "id": "5",
+        "activity": "Gyming",
+        "time": 50,
+        "age": "20-30",
+        "img": "https://ibb.co/8b4GxnD",
+        "description": "Working out at home can be just as effective. While a gym provides a dedicated space, home workouts offer more flexibility and can be more efficient. It all depends on how you use your time and equipment to maximize your effort"
+      },
+      
+    {
+        "id": "6",
+        "activity": "Sleeping",
+        "time": 360,
+        "age": "18-60",
+        "img": "https://ibb.co/ggcScmv",
+        "description": "In short, you need sleep so your body and mind can function properly. Sleep is also thought to help keep the immune system strong and the heart and blood vessels healthy. It allows for growth and healing, and helps control appetite and weight. Sleep promotes attention, memory and learning."
+      }   
+]

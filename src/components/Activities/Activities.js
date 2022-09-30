@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Details from '../Details/Details';
 import './Activities.css'
 
 const Activities = () => {
@@ -12,7 +13,7 @@ useEffect(()=>{
     return (
         <div className='activities'>
             {
-               activities && activities.map(activity=>console.log(activity))
+               activities.map(activity=><Details activity={activity} key={activity.id} ></Details>)
             }
         </div>
     );

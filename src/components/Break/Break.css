@@ -1,0 +1,22 @@
+.break p{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.break-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.btn-second{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.btn-second:hover{
+    background-color: #5d5fef;
+    color: white;
+}

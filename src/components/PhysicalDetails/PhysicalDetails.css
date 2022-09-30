@@ -1,0 +1,27 @@
+
+h2{
+    margin: 0;
+}
+h2 small{
+    font-size: 15px;
+    color: grey;
+}
+.common p{
+    margin: 0;
+    color: grey;
+    font-size: 20px;
+}
+.common{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.physical-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #f2f4fa;
+    border-radius: 5px;
+    padding: 10px;
+}

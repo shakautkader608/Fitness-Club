@@ -1,7 +1,8 @@
 import React from 'react';
 import './ExerciseDetails.css'
 
-const ExerciseDetails = () => {
+const ExerciseDetails = (props) => {
+    console.log(props);
     return (
         <div className='exerciseDetails'>
         <p>Exercise Details</p>

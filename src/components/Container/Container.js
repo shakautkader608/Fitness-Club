@@ -6,6 +6,7 @@ import Profile from '../Profile/Profile';
 import './Container.css'
 import Break from '../Break/Break';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
+import Questions from '../Questions/Questions';
 
 const Container = () => {
     return (
@@ -13,6 +14,7 @@ const Container = () => {
           <div className="activity-container">
             <Header/>
             <Activities/>
+            <Questions></Questions>
           </div>
           <div className="information-container">
             <Profile></Profile>

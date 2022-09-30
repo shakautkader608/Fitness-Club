@@ -9,11 +9,16 @@ useEffect(()=>{
     .then(res=>res.json())
     .then(data=>setActivities(data))
 },[])
+const handleAddActivity=(activity)=>{
+    const newActivities=[...Details,activity]
+    console.log(newActivities)
+    setActivities(newActivities);
+}
 
     return (
         <div className='activities'>
             {
-               activities.map(activity=><Details activity={activity} key={activity.id} ></Details>)
+               activities.map(activity=><Details activity={activity} key={activity.id} handleAddActivity={handleAddActivity} ></Details>)
             }
         </div>
     );

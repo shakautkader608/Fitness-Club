@@ -1,6 +1,7 @@
 import React from 'react';
 import Activities from '../Activities/Activities';
 import Header from '../Header/Header';
+import Profile from '../Profile/Profile';
 import './Container.css'
 
 const Container = () => {
@@ -11,7 +12,7 @@ const Container = () => {
             <Activities/>
           </div>
           <div className="information-container">
-            <h1>Information</h1>
+            <Profile></Profile>
           </div>
         </div>
     );

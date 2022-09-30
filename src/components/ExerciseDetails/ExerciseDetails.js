@@ -1,4 +1,5 @@
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 import './ExerciseDetails.css'
 
 const ExerciseDetails = (props) => {
@@ -16,6 +17,7 @@ const ExerciseDetails = (props) => {
                 <span>200 seconds</span>
             </div>
         </div>
+        <button className='btn-complete'>Activity Completed</button>
     </div>
     );
 };

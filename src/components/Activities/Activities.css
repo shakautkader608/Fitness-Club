@@ -4,3 +4,9 @@
     gap: 45px;
     margin: 50px 50px;
 }
+@media only screen and (max-width: 600px) {
+    .activities{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

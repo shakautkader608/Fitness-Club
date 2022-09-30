@@ -14,7 +14,6 @@ const Container = () => {
           <div className="activity-container">
             <Header/>
             <Activities/>
-            <Questions></Questions>
           </div>
           <div className="information-container">
             <Profile></Profile>
@@ -22,6 +21,7 @@ const Container = () => {
             <Break></Break>
             <ExerciseDetails></ExerciseDetails>
           </div>
+            <Questions></Questions>
         </div>
     );
 };

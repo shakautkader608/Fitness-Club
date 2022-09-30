@@ -19,3 +19,17 @@
 .total-time{
     margin-top: 15px;
 }
+
+.btn-complete{
+    width: 100%;
+    background-color: #5d5fef;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn-complete:hover{
+    background-color: #27ae60;
+}

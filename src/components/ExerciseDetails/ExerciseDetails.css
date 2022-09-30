@@ -1,0 +1,21 @@
+.exerciseDetails p{
+        font-size: 20px;
+        font-weight: 500;   
+}
+.total-time{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    border-radius: 5px;
+    padding: 10px;
+}
+.total-time p{
+    font-size: 15px;
+    margin: 0;
+}
+.total-time span{
+    color: grey;
+}
+.total-time{
+    margin-top: 15px;
+}

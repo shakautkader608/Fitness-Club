@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Profile from '../Profile/Profile';
 import './Container.css'
 import Break from '../Break/Break';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 
 const Container = () => {
     return (
@@ -17,6 +18,7 @@ const Container = () => {
             <Profile></Profile>
             <PhysicalDetails></PhysicalDetails>
             <Break></Break>
+            <ExerciseDetails></ExerciseDetails>
           </div>
         </div>
     );

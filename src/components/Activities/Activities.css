@@ -1,0 +1,6 @@
+.activities{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}

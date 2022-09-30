@@ -1,0 +1,22 @@
+.logo-Text{
+    color: #5d5fef;
+    margin-left: 5px;
+    font-size: 30px;
+    margin: 0;
+}
+.logo img{
+    width: 50px;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+}
+.header p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.header{
+    margin-left: 50px;
+}
